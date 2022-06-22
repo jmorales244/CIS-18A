@@ -31,9 +31,9 @@ public class MonthlySalesTax {
         double stateTax = sales * sTax; 
         double totalTax = countyTax + stateTax; 
         System.out.print("\nCounty Sales Tax:     $ ");
-        System.out.print(String.format("%.2f", totalTax));
+        System.out.print(String.format("%.2f", countyTax));
         System.out.print("\nState Sales Tax:      $ ");
-        System.out.print(String.format("%.2f", totalTax));
+        System.out.print(String.format("%.2f", stateTax));
         System.out.print("\nTotal Sales Tax:      $ ");
         System.out.print(String.format("%.2f", totalTax));
 
