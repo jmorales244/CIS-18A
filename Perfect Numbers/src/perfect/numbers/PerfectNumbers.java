@@ -1,20 +1,35 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package perfect.numbers;
-
+import java.util.*;
 /**
  *
- * @author jhere
+ * @author Jheremy Morales
  */
 public class PerfectNumbers {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter number: ");
+        int num = sc.nextInt();
+        String str="";
+        for (int i = 0; i < num; i++){
+        str=isPerfect(i);
+        if(str!=null)
+        System.out.println(str);
+        }
     }
-    
+
+private static String isPerfect(int n) {
+String res = "";
+int sum = 0;
+for (int i = 1; i < n; i++) {
+if (n % i == 0) {
+res = res + " " + i;
+sum += i;
+}
+}
+if (sum == n) {
+res = n + " is perfect.\n\tFactors:" + res;
+return res;
+}
+return null;
+}
 }
