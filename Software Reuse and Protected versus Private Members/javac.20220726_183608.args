@@ -1,0 +1,18 @@
+-d
+"C:\\Users\\Jheremy\\Documents\\GitHub\\CIS-18A\\Software Reuse and Protected versus Private Members\\build\\classes"
+-classpath
+"C:\\Users\\Jheremy\\Documents\\GitHub\\CIS-18A\\Software Reuse and Protected versus Private Members\\build\\classes"
+-sourcepath
+"C:\\Users\\Jheremy\\Documents\\GitHub\\CIS-18A\\Software Reuse and Protected versus Private Members\\build\\empty"
+-target
+18
+-encoding
+UTF-8
+-g
+-processorpath
+"C:\\Users\\Jheremy\\Documents\\GitHub\\CIS-18A\\Software Reuse and Protected versus Private Members\\build\\empty"
+-s
+"C:\\Users\\Jheremy\\Documents\\GitHub\\CIS-18A\\Software Reuse and Protected versus Private Members\\build\\generated-sources\\ap-source-output"
+-source
+18
+"C:\\Users\\Jheremy\\Documents\\GitHub\\CIS-18A\\Software Reuse and Protected versus Private Members\\src\\software\\reuse\\and\\pkgprotected\\versus\\pkgprivate\\members\\SoftwareReuseAndProtectedVersusPrivateMembers.java"
