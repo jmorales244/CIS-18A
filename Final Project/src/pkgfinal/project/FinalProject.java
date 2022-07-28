@@ -1,18 +1,15 @@
-
-
 package pkgfinal.project;
 
-/**
- *
- * @author Jheremy Morales
- */
+import java.util.*;
+
+
 public class FinalProject {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        blackJack startBJ = new blackJack();
+        
+        startBJ.getBlackJack(100, 2);
     }
 
 }
